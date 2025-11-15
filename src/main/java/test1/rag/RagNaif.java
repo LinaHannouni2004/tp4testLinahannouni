@@ -34,7 +34,6 @@ public class RagNaif {
                 .apiKey(System.getenv("GEMINI_KEY"))
                 .modelName("gemini-2.5-flash")
                 .temperature(0.2)
-                .logRequestsAndResponses(true)
                 .build();
 
 
